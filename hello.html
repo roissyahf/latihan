@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Page</title>
+        <meta name="description" content="First webpage">
+        <link rel="stylesheet" href="style_of_hello.css">
+    </head>
+    <title>hello</title>
+    <body class="content">
+
+        <div>
+            <h1 class="my_h1">Introduction</h1>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+            <p id="para_1">
+            <strong>Hello world!</strong> My name is Roissyah Fernanda, this is my first try using VS code,
+            also implementing HTML syntax here. Wish me luck, please guide me!.
+            </p>
+
+            <h2>Goals</h2>
+            <ol> 
+            <li>I would like to understand HTML structure in website page.</li>
+            <li>I would like to try all beginner syntax i found in PPT.</li>
+            <li>I wanna open HTML code i wrote in my browser.</li>
+            <li>I'm gonna have fun here.</li>
+            </ol>
+              
+            <h2 id="reminder_state">Remind this:</h2>
+                <ul> 
+                    <li><s>Give up easily is not a choice.</s></li>
+                    <li><strong>Google is your best friend.</strong></li>
+                    <li>Don't comparing your progress with other,<em> Because, we have different timeline.</em></li>
+                </ul> 
+            
+            <h2>How It Feels like</h2>
+            <p>Ha ha, i'm quite nervous but <em>i'm ready to get my hand dirty.</em>
+                FYI, my mentor recommend us to learn web programmming from 
+                <a href="https://www.w3schools.com", target="_blank"> W3School website</a>
+            </p>
+
+           <h3 class="center">Just third heading to put random image</h3>
+            
+           <p class="conf_state">I'm still struggling with <strong><em>tagging images from relative file paths, also from other external link.</em></strong>
+            But on 4 July i'm able to tag image from relative file path (located in the same folder)
+           </p>
+            
+           <img src="W3School_logo.png" alt="W3School_logo" width="120" height="100">
+
+            <h3>Another heading to create table</h3>
+            <p>This's simple table to distinguish HTML, CSS, and Javascript function.</p>
+
+            <table>
+                <tr>
+                    <th>HTML</th>
+                    <th>CSS</th>
+                    <th>Javascript</th>
+                </tr>
+                <tr>
+                    <td>Used to create the website structure</td>
+                    <td>Used to stylish your website</td>
+                    <td>Used to make your website work interactively</td>
+            </table>
+
+            <h2 id="para_checkboxes">Form with checkboxes</h2>
+
+            <p>Please check the box if you found that field interesting</p>
+            <form action="/action_page.php" method="get">
+                <input type="checkbox" name="interest1" value="Web programmming" checked>
+                <label for="interest1"> I'm interested in Web Programming</label><br>
+                <input type="checkbox" name="interest2" value="Machine Learning" checked>
+                <label for="interest2"> I'm interested in Machine Learning</label><br>
+                <input type="checkbox" name="interest3" value="Digital Security">
+                <label for="interest3"> I'm interested in Digital Security</label><br><br>
+                <input type="submit" value="Submit">
+            </form>
+
+            <h2 id="hangout">Form with radio buttons</h2>
+            <p>Which one you prefer to hangout with in saturday night?</p>
+            <form action="/action_page.php" method="get">
+                <input type="radio" id="person_1" name="with_whom" value="Best friend">
+                <label for="person_1">Best friend</label><br>
+                <input type="radio" id="person_2" name="with_whom" value="Lovely one">
+                <label for="person_2">Lovely one</label><br>
+                <input type="radio" id="person_3" name="with_whom" value="Family" checked="checked">
+                <label for="person_3">Family</label><br><br>
+                <input type="submit" value="Submit">
+            </form>
+
+            <h2>Personal information form</h2>
+            <form>
+                <fieldset>
+                    <legend><strong>Personal Information</strong></legend>
+                    <div>
+                        <label for="full-name">Full Name</label>
+                        <input id="full-name" name="fullName" type="text" placeholder="Full Name...">
+                    </div>
+                    <div>
+                        <label for="email">Email Adress</label>
+                        <input id="email" name="email" type="email" placeholder="Email...">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend><strong>Gender</strong></legend>
+                    <div>
+                        <input type="radio" id="gender_1" name="which_gender" value="Male">
+                        <label for="gender_1">Male</label><br>
+                        <input type="radio" id="gender_2" name="which_gender" value="Female">
+                        <label for="gender_2">Female</label><br>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </body>
+</html>

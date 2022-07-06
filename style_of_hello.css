@@ -1,0 +1,60 @@
+/*style my whole webpage*/
+.content {
+    padding: 25px;
+    margin: 25px;
+    background-color: rgb(219,255,221);
+    }
+/*style my h1 introduction*/
+.my_h1{
+     text-align: center;
+     font-family:'Pacifico', 'cursive';
+     color: rgb(75, 27, 217);
+    }
+/*style my first paragraph*/
+#para_1 {
+    text-align: center;
+    color: rgba(10, 44, 218, 0.73);
+    } 
+/*this is padding*/
+#reminder_state {
+    border: 1px solid rgb(217, 254, 7);
+    background-color: rgb(246, 17, 17);
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    text-align: center;
+    }
+/*style my link*/
+a:hover {color: rgb(255, 10, 133)}  
+/*this is margin*/
+h3.center {
+  text-align: center;
+  color: rgb(174, 36, 87);
+}
+/*style my paragraph (confusion state*/
+p.conf_state{
+  border: 3px solid black;
+  margin-top: 1.5px;
+  margin-bottom: 1.5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: rgb(226, 117, 38);
+}
+/*table style*/
+table, th, td {
+    border: 1px solid rgb(83, 33, 220);
+    border-collapse: collapse;
+    }
+/*style my h2 form checkbox*/
+#para_checkboxes {
+    text-align: center;
+    color: rgb(226, 27, 150);
+    border-style: dashed;
+    border-color: rgb(253, 8, 8) rgb(10, 248, 10) rgb(57, 57, 242) rgb(243, 179, 20);
+    }
+/*style my h2 form radio*/
+#hangout {
+    color:rgb(3, 3, 247);
+    font-size: x-large;
+}
